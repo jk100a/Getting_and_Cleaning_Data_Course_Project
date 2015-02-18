@@ -4,8 +4,8 @@ This is a code book that describes the variables, the data, and any transformati
 
 ## The data source
 
- Original data httpsd396qusza40orc.cloudfront.netgetdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
- Original description of the dataset httparchive.ics.uci.edumldatasetsHuman+Activity+Recognition+Using+Smartphones
+ Original data https://d396qusza40orc.cloudfront.netgetdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+ Original description of the dataset http://archive.ics.uci.edumldatasetsHuman+Activity+Recognition+Using+Smartphones
 
 ## Data Set Information
 
@@ -13,8 +13,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readingswindow). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-For each record it is provided:
-======================================
+## For each record it is provided:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 
@@ -22,8 +21,7 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-The dataset includes the following files:
-=========================================
+## The dataset includes the following files:
 
 - 'README.txt'
 
@@ -51,13 +49,12 @@ The following files are available for the train and test data. Their description
 
 - 'trainInertial Signalsbody_gyro_x_train.txt' The angular velocity vector measured by the gyroscope for each window sample. The units are radianssecond.
 
-Notes: 
-======
+## Notes: 
+
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
 For more information about this dataset contact: ```activityrecognition@smartlab.ws```
-
 
 ## Transformations
 
